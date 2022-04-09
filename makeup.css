@@ -1,0 +1,110 @@
+#timeout {
+    border: 2px solid #f7ce5a;
+    border-radius: 15px;
+    padding: 5px;
+    width: fit-content;
+    background-color: #3091d4;
+    color: #974141;
+}
+
+body {
+    background-image: url('./img/back_ground.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+#header {
+    height: 35px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#myPoint {
+    height: 100%;
+    width: 15%;
+    border: 2px solid #83c898;
+    color: #ff6689;
+    background-color: #006060;
+    margin: 0 3%;
+    line-height: 35px;
+    text-align: center;
+}
+
+#yourPoint {
+    height: 100%;
+    width: 15%;
+    border: 2px solid #ffa28d;
+    color: #99ebdc;
+    background-color: #ee2db6;
+    margin: 0 3%;
+    line-height: 35px;
+    text-align: center;
+}
+
+#game {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fa-solid {
+    font-size: 300%;
+}
+
+#enemyOTT .enemy {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+}
+
+#enemyOTT {
+    margin: 20px 0;
+    width: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    position: relative;
+}
+
+#alliesOTT {
+    margin: 20px 0;
+    width: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    position: relative;
+}
+
+#alliesOTT .allies {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(28, 202, 22);
+}
+
+@keyframes goLeft {
+    from {
+        right: 0%;
+    }
+
+    to {
+        right: 200%
+    }
+}
+
+@keyframes goRight {
+    from {
+        left: 0%;
+    }
+
+    to {
+        left: 200%
+    }
+}
